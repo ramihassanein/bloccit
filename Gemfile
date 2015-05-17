@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#pry-rails for an enhanced rails console
+gem 'pry-rails'
+
 # Use 'bootstrap-sass' for styling
 gem 'bootstrap-sass'
 
