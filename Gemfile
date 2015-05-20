@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-#pry-rails for an enhanced rails console
-gem 'pry-rails'
+
 
 # Use 'bootstrap-sass' for styling
 gem 'bootstrap-sass'
@@ -36,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  
+  #pry-rails for an enhanced rails console
+gem 'pry-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
