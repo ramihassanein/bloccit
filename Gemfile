@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+gem 'faker'
 # Use 'bootstrap-sass' for styling
 gem 'bootstrap-sass'
 
